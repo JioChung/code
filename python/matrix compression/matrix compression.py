@@ -28,6 +28,8 @@ def getData(filepath:list):
     return matrix
 
 if __name__ == "__main__":
-    filepath = "../code/python/matrix compression/input.txt"
+    # 上三角
+    filepath = "../code/python/matrix compression/upper-matrix.txt"
     matrix = getData(filepath)
+    
     print(matrix)
