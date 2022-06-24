@@ -14,7 +14,7 @@ struct Node{
 
 int main() {
     ifstream fin;
-    fin.open("code/c++/matrix compression/input-UpperTriangular.txt");
+    fin.open("input-UpperTriangular.txt");
     if(!fin.is_open()){
         cout<<"open file fail"<<endl;
     }

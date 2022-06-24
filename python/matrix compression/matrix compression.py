@@ -29,7 +29,7 @@ def getData(filepath:list):
 
 if __name__ == "__main__":
     # 上三角
-    filepath = "../code/python/matrix compression/upper-matrix.txt"
+    filepath = "python/matrix compression/upper-matrix.txt"
     matrix = getData(filepath)
     
     print(matrix)
