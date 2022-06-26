@@ -1,7 +1,9 @@
-'''
-获取矩阵数据
-'''
 def get_data(filepath):
+    
+    '''
+    获取矩阵数据
+    '''
+    
     # 打开文件
     file = open(filepath)
     # 文件打开失败
@@ -29,10 +31,13 @@ def get_data(filepath):
     file.close()
     return matrix
 
-'''
-判断matrix类型：1.上三角、2.下三角、3.三对角矩阵
-'''
+
+
 def matrix_type(matrix:list):
+    
+    '''
+    判断matrix类型:1.上三角、2.下三角、3.三对角矩阵
+    '''
     
     # 默认返回0，表示无法判断矩阵类型（一般矩阵）
     return 0;
